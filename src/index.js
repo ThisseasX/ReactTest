@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MyComponent from './mycomponent';
+import AjaxComponent from './component/ajaxcomponent';
 import './index.css';
 
 var count = 0;
@@ -33,6 +35,8 @@ function TeamBoard() {
       <Team
         frameworks={["MongoDB", "Angular2", "ExpressJS", "NodeJS"]}
       />
+      <MyComponent />
+      <AjaxComponent />
     </div>
   )
 }
